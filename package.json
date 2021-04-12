@@ -1,0 +1,56 @@
+{
+  "name": "blizzard",
+  "version": "1.0.0",
+  "description": "Blizzard clone from scratch using webpack and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build:ssr": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.configs.js",
+    "serv": "cd dist && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebasssiu/BlizzardClone.git"
+  },
+  "keywords": [
+    "blizzard",
+    "clone"
+  ],
+  "author": "Sebasssiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sebasssiu/BlizzardClone/issues"
+  },
+  "homepage": "https://github.com/Sebasssiu/BlizzardClone#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.1",
+    "eslint-loader": "^4.0.2",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.1",
+    "isomorphic-style-loader": "^5.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.0",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "file-loader": "^6.2.0"
+  }
+}

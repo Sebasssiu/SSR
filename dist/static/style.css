@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+#item:hover {
+  color: #fff;
+}
+
+li {
+  margin: 0px 25px 0px 0px;
+}
+a {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12.5px;
+}
+a:hover {
+  color: #fff;
+}
+.top-background {
+  min-height: 70%;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url("https://images.blz-contentstack.com/v3/assets/blte0bbc3c063f45866/blt8abdd247ee7538ec/60146fd43377931068df0ea5/BattlenetDesktop_BG_HeaderSmall.webp?auto=webp&format=pjpg");
+}
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: pink;
+}
