@@ -7,6 +7,7 @@ This project was to build a web pack setup of react with server side rendering.
 **[Usage](#Usage)**<br>
 **[Tecnologies](#Tecnologies)**<br>
 **[Contributing](#Contributing)**<br>
+**[License](#License)**<br>
 
 ## Installation
 
@@ -37,3 +38,6 @@ Tecnologies    | Description
 
 ## Contributing
 <a href="https://github.com/Sebasssiu"><img src="https://avatars.githubusercontent.com/u/54748964?v=4" height="200"></a>
+
+## License
+MIT
