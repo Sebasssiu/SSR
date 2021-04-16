@@ -36,4 +36,4 @@ Tecnologies    | Description
 ✅ EsLint     	| Checks the written code in order to make sure you're writing a readable code by other programmers to check your code out. 
 
 ## Contributing
-<a href="https://github.com/Sebasssiu"><img src="https://avatars.githubusercontent.com/u/54748964?v=4" height="400"></a>
+<a href="https://github.com/Sebasssiu"><img src="https://avatars.githubusercontent.com/u/54748964?v=4" height="200"></a>
