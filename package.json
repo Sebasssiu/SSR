@@ -1,18 +1,16 @@
 {
-  "name": "blizzard",
+  "name": "ssr-config",
   "version": "1.0.0",
-  "description": "Blizzard clone from scratch using webpack and react",
+  "description": "SSR using webpack and react",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve",
-    "build:ssr": "webpack --config webpack.config.js",
-    "build": "webpack --config webpack.configs.js",
-    "serv": "cd dist && node server.js"
+    "build": "webpack --config webpack.configs.js && webpack --config webpack.config.js",
+    "start": "cd dist && node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sebasssiu/BlizzardClone.git"
+    "url": "git+https://github.com/Sebasssiu/SSR.git"
   },
   "keywords": [
     "blizzard",
@@ -21,9 +19,9 @@
   "author": "Sebasssiu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sebasssiu/BlizzardClone/issues"
+    "url": "https://github.com/Sebasssiu/SSR/issues"
   },
-  "homepage": "https://github.com/Sebasssiu/BlizzardClone#readme",
+  "homepage": "https://github.com/Sebasssiu/SSR#readme",
   "dependencies": {
     "@babel/core": "^7.13.15",
     "@babel/preset-env": "^7.13.12",

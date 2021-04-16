@@ -26,7 +26,7 @@ a:hover {
   background-position: center top;
   background-image: url("https://images.blz-contentstack.com/v3/assets/blte0bbc3c063f45866/blt8abdd247ee7538ec/60146fd43377931068df0ea5/BattlenetDesktop_BG_HeaderSmall.webp?auto=webp&format=pjpg");
 }
-#root {
+#f {
   width: 100%;
   min-height: 100vh;
   background-color: pink;

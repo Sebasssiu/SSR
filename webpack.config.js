@@ -1,58 +1,5 @@
-/*
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-
-module.exports = {
-  mode: 'development',
-  entry: './src/index.js',
-  module: {
-    rules: [
-      {
-        test: /\.(jsx?)$/,
-        use: [
-          'babel-loader',
-          'eslint-loader',
-        ],
-      },
-      {
-        use: [
-          'style-loader',
-          'css-loader',
-        ],
-        test: /\.(css)$/,
-      },
-      {
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
-        test: /\.(png|jpe?g|gif)$/i,
-      },
-    ],
-  },
-  resolve: {
-    extensions: ['*', '.js', '.jsx', '.css'],
-  },
-  devServer: {
-    contentBase: './dist',
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      templateContent: `
-        <html>
-          <head>
-          <title>Blizzard Entertainment</title>
-          </head>
-          <body>
-            <div id="root" />
-          </body>
-        </html>
-      `,
-    }),
-  ],
-}
-*/
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const APP_SOURCE = path.join(__dirname, 'src')
 
@@ -89,4 +36,20 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      templateContent: () => `
+        <html>
+          <head>
+            <title>React</title><meta charset="utf-8" />
+            <link REL=StyleSheet href="./style.css" TYPE="text/css">
+          </head>
+          <body>
+            <div id="root"></div>
+            <script src="./client.js"></script>
+          </body>
+        </html>
+      `,
+    }),
+  ],
 }
