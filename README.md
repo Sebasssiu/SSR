@@ -28,6 +28,10 @@ in order to have the server side rendering. <br/>
 
 Starts the app in a developer server <a href="http://localhost:8080">http://localhost:8080</a>
 
+### `npm run lint`
+
+Checks for any syntax errors in the code using eslinte air bnb configuration for react and javascript.
+
 ## Tecnologies 
 Tecnologies    | Description
 ----------------|---------------------------------------------------------
