@@ -45,5 +45,11 @@ module.exports = {
         to: 'static',
       }],
     }),
+    new Web({
+      patterns: [{
+        from: 'src/images/large.png',
+        to: 'static',
+      }],
+    }),
   ],
 }

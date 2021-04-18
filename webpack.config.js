@@ -41,7 +41,8 @@ module.exports = {
       templateContent: () => `
         <html>
           <head>
-            <title>React</title><meta charset="utf-8" />
+            <title>Is it Christmas?</title><meta charset="utf-8" />
+            <link rel="shortcut icon" href="./large.png">
             <link REL=StyleSheet href="./style.css" TYPE="text/css">
           </head>
           <body>

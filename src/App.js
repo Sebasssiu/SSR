@@ -1,7 +1,6 @@
 import React from 'react'
 import './styles/style.css'
-import Login from './components/loginCard'
 
-const App = () => <Login />
+const App = () => <h1>NO</h1>
 
 export default App

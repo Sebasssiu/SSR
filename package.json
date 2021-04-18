@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.configs.js && webpack --config webpack.config.js",
-    "start": "cd dist && node server.js"
+    "start": "cd dist && node server.js",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
